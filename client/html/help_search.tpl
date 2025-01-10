@@ -1,0 +1,11 @@
+<nav class='buttons secondary'><!--
+    --><ul><!--
+        --><li data-name='default'><a href='<%- ctx.formatClientLink('help', 'search') %>'>General</a></li><!--
+        --><li data-name='posts'><a href='<%- ctx.formatClientLink('help', 'search', 'posts') %>'>Posts</a></li><!--
+        --><li data-name='users'><a href='<%- ctx.formatClientLink('help', 'search', 'users') %>'>Users</a></li><!--
+        --><li data-name='tags'><a href='<%- ctx.formatClientLink('help', 'search', 'tags') %>'>Tags</a></li><!--
+    --></ul><!--
+--></nav>
+--></nav>
+
+<div class='subcontent'></div>
